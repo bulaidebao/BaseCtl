@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "HLLBaseButton.h"
+#import "UIColor+HLLHex.h"
 
 FOUNDATION_EXPORT double BaseControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseControlVersionString[];
