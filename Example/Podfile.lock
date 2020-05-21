@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseControl: 163896bc1c863e5291e41b40225747ee36b21ba9
+  BaseControl: 6cb2dd48c301f64dcad0affd0517256a53b958c5
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 

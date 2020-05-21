@@ -2,7 +2,7 @@
   "name": "BaseControl",
   "version": "0.1.0",
   "summary": "Base Controls",
-  "homepage": "https://github.com/bulaidebao/BaseControl",
+  "homepage": "https://github.com/bulaidebao/BaseCtl",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,7 +11,7 @@
     "1738251463@qq.com": "yangshubao@hualala.com"
   },
   "source": {
-    "git": "https://github.com/bulaidebao/BaseControl.git",
+    "git": "https://github.com/bulaidebao/BaseCtl.git",
     "tag": "0.1.0"
   },
   "platforms": {
