@@ -1,6 +1,6 @@
 {
   "name": "BaseControl",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "summary": "Base Controls",
   "homepage": "https://github.com/bulaidebao/BaseCtl",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/bulaidebao/BaseCtl.git",
-    "tag": "0.1.0"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
