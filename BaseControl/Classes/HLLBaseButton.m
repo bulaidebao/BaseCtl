@@ -6,14 +6,11 @@
 //  Copyright © 2018年 段超. All rights reserved.
 //
 
-#define ISNOTEMPTY_STRING(s) (s && [s isKindOfClass:[NSString class]] && ![s isEqualToString:@""] && ![s isEqual:[NSNull null]])
-#define HLL_FONT_SMALL HLL_FONT_NORMAL(10,9)
-#define HLL_IMAGE(imageName) [UIImage imageNamed:imageName]
-
 #import "HLLBaseButton.h"
 
 @implementation HLLBaseButton
 
+/*
 - (instancetype)initWithImageName:(NSString *)imageName title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font {
     if (self = [super init]) {
         if (ISNOTEMPTY_STRING(imageName)) {
@@ -30,7 +27,7 @@
 
 - (instancetype)initWithImageName:(NSString *)imageName {
     return [[HLLBaseButton alloc] initWithImageName:imageName title:@"" titleColor:[UIColor whiteColor] font:HLL_FONT_SMALL];
-}
+}*/
 
 - (instancetype)initWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font {
     return [[HLLBaseButton alloc] initWithImageName:@"" title:title titleColor:titleColor font:font];
