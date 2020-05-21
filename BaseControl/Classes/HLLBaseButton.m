@@ -10,25 +10,6 @@
 
 @implementation HLLBaseButton
 
-/*
-- (instancetype)initWithImageName:(NSString *)imageName title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font {
-    if (self = [super init]) {
-        if (ISNOTEMPTY_STRING(imageName)) {
-            [self setImage:HLL_IMAGE(imageName) forState:UIControlStateNormal];
-        }
-        if (ISNOTEMPTY_STRING(title)) {
-            [self setTitle:title forState:UIControlStateNormal];
-            [self setTitleColor:titleColor forState:UIControlStateNormal];
-            self.titleLabel.font = font;
-        }
-    }
-    return self;
-}
-
-- (instancetype)initWithImageName:(NSString *)imageName {
-    return [[HLLBaseButton alloc] initWithImageName:imageName title:@"" titleColor:[UIColor whiteColor] font:HLL_FONT_SMALL];
-}*/
-
 - (instancetype)initWithTitle:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font {
     return [[HLLBaseButton alloc] initWithImageName:@"" title:title titleColor:titleColor font:font];
 }
