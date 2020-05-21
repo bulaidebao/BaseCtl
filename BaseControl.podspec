@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseControl'
-  s.version          = '0.1.2'
+  s.version          = '0.1.1'
   s.summary          = 'Base Controls'
 
 # This description is used to generate tags and improve search results.
