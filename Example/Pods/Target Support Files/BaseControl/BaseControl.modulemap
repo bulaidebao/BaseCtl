@@ -1,0 +1,6 @@
+framework module BaseControl {
+  umbrella header "BaseControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

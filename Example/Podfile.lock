@@ -1,0 +1,27 @@
+PODS:
+  - BaseControl (0.1.0)
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - BaseControl (from `../`)
+  - Expecta
+  - Specta
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  BaseControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseControl: 481d411589e6f3bed5d7ab111f10a51fd88725d6
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: e83903fb19697aa5127c8e254c8988809ec5bbe4
+
+COCOAPODS: 1.9.1
