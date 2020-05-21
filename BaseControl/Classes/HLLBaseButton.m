@@ -7,6 +7,7 @@
 //
 
 #import "HLLBaseButton.h"
+#import"HLLMacros.h"
 
 @implementation HLLBaseButton
 

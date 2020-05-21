@@ -1,9 +1,8 @@
 {
   "name": "BaseControl",
   "version": "0.1.0",
-  "summary": "A short description of BaseControl.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1738251463@qq.com/BaseControl",
+  "summary": "Base Controls",
+  "homepage": "https://github.com/bulaidebao/BaseControl",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,12 @@
     "1738251463@qq.com": "yangshubao@hualala.com"
   },
   "source": {
-    "git": "https://github.com/1738251463@qq.com/BaseControl.git",
+    "git": "https://github.com/bulaidebao/BaseControl.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BaseControl/Classes/**/*"
+  "source_files": "BaseControl/Classes/**/*",
+  "frameworks": "UIKit"
 }
