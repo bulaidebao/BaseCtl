@@ -6,8 +6,11 @@
 //  Copyright © 2018年 段超. All rights reserved.
 //
 
+#define ISNOTEMPTY_STRING(s) (s && [s isKindOfClass:[NSString class]] && ![s isEqualToString:@""] && ![s isEqual:[NSNull null]])
+#define HLL_FONT_SMALL HLL_FONT_NORMAL(10,9)
+#define HLL_IMAGE(imageName) [UIImage imageNamed:imageName]
+
 #import "HLLBaseButton.h"
-#import"HLLMacros.h"
 
 @implementation HLLBaseButton
 

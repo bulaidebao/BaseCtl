@@ -11,7 +11,6 @@
 #endif
 
 #import "HLLBaseButton.h"
-#import "HLLMacros.h"
 
 FOUNDATION_EXPORT double BaseControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseControlVersionString[];
